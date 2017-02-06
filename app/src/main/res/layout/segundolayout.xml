@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivBienvenido"
+        android:background="@drawable/bienvenido2"
+        android:layout_marginTop="44dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ha iniciado sesión de forma correcta"
+        android:id="@+id/tvTexto"
+        android:textSize="23dp"
+        android:textColor="@color/abc_input_method_navigation_guard"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/ivBienvenido"
+        android:layout_alignStart="@+id/ivBienvenido"
+        android:layout_alignRight="@+id/ivBienvenido"
+        android:layout_alignEnd="@+id/ivBienvenido" />
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="110dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/paisaje"
+        android:layout_below="@+id/tvTexto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp" />
+
+</RelativeLayout>
